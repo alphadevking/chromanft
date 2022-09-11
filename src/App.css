@@ -5,24 +5,40 @@
 }
 
 .bg-normal{
-    background-color: #3661b8;
+    background-color: #333b4d;
     color: white;
     transition: all .5s;
 }
 
 .btn-normal{
-    background-color: #3661b8;
+    background-color: #333b4d;
     color: white;
+    transition: all .5s;
+    border: none;
+}
+
+.btn-normal-outline{
+    background-color: white;
+    border: 1px solid #222836;
+    color: black;
     transition: all .5s;
 }
 
 .btn-normal:hover{
-    background-color: #153981;
+    background-color: #222836;
+    color: white;
+    transition: all .5s;
+    border: none;
+}
+
+.btn-normal-outline:hover{
+    background-color: #222836;
+    color: white;
     transition: all .5s;
 }
 
 .glass{
-    background: rgba(#223f79, 0.5);
+    background: rgba(#333b4d, 0.5);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-backdrop-filter: blur(10.5px);
     backdrop-filter: blur(10px);

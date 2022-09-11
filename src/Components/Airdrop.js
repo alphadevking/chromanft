@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Stack from 'react-bootstrap/esm/Stack'
-import AirdropMeme from '../Images/nftx-airdrop-meme.jpg'
+import AirdropMeme from '../images/abstract-shapes-colorful-fluid-liquid-hd-wallpaper-preview.jpg'
 
 function Airdrop() {
   return (
@@ -9,7 +9,7 @@ function Airdrop() {
 
         <Container>
 
-            <Stack gap={4} style={{textAlign: `left`}}>
+            <Stack gap={3} style={{textAlign: `left`}}>
 
                 <div>
                     <h3 style={{fontWeight: 'bold'}}>Airdrop</h3>

@@ -8,14 +8,14 @@ function Listing() {
 
         <Container>
 
-            <Stack gap={4} style={{textAlign: `left`}}>
+            <Stack gap={2} style={{textAlign: `left`}}>
 
                 <div>
                     <h3 style={{fontWeight: 'bold'}}>Listing</h3>
                 </div>
 
                 <div>
-                    <p>NFT Apocalypse (NFTx) Token is listed on <a className='text-decoration-underline text-white' href='https://spookysway.finance/'>https://spookysway.finance</a>.
+                    <p>Chroma NFT (cNFT) Token is listed on <a className='text-decoration-underline text-dark' href='https://spookysway.finance/'>https://spookysway.finance</a>.
                     </p>
                 </div>
 

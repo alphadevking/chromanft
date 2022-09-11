@@ -15,8 +15,12 @@ function HeaderCarousel() {
             alt="First slide"
             style={{height:'55vw'}}
           />
-          <Carousel.Caption>
-          </Carousel.Caption>
+          <div className='text-dark card-img-overlay container align-items-center d-flex w-75'>
+            <div style={{float: `left`}}>
+            <h4>Chroma NFT</h4>
+            <p>The marketplace for NFTs and MetaChain Tokens</p>
+            </div>
+          </div>
 
         </Carousel.Item>
 

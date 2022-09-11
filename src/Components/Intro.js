@@ -1,15 +1,15 @@
 import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Stack from 'react-bootstrap/esm/Stack'
-import IntroMeme from '../images/3d-cryptocurrency-rendering-design.jpg'
+import IntroMeme from '../images/The-Metaverse.png'
 
 function Intro() {
   return (
-    <div>
+    <div className='pt-1'>
 
         <Container>
 
-            <Stack gap={4}>
+            <Stack gap={3}>
 
                 <div>
                     <h3 style={{textAlign: `left`, fontWeight: 'bold'}}>Introduction</h3>
@@ -20,12 +20,12 @@ function Intro() {
                 </div>
 
                 <div>
-                    <p style={{textAlign: `left`}}>The NFT Apocalypse Dao would connect augmented reality(AR/VR) with Decentralized Finance (DeFi) and Non-Fungible Tokens (NFT's) across multiple blockchains while rewarding holders and creators.</p>
+                    <p style={{textAlign: `left`}}>The Chroma NFT DAO would connect augmented reality(AR/VR) with Decentralized Finance (DeFi) and Non-Fungible Tokens (NFTs) across multiple blockchains while rewarding holders and creators.</p>
                 </div>
 
                 <div>
                     <p style={{textAlign: `left`}}>
-                    NFT Apocalypse is the first MultiChain NFT MetaVerse platform adding value to both holders and digital creators. Don't miss!!!
+                    Chroma NFT is the first MultiChain NFT MetaVerse platform adding value to both holders and digital creators. Don't miss!!!
                     </p>
                 </div>
 
