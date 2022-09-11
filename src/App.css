@@ -1,15 +1,30 @@
 *{
     box-sizing: border-box;
     font-family: exo, sans serif;
+    transition: all .5s;
+}
+
+.bg-normal{
+    background-color: #3661b8;
+    color: white;
+    transition: all .5s;
 }
 
 .btn-normal{
-    background-color: #131822;
+    background-color: #3661b8;
     color: white;
     transition: all .5s;
 }
 
 .btn-normal:hover{
-    background-color: #333b4d;
+    background-color: #153981;
+    transition: all .5s;
+}
+
+.glass{
+    background: rgba(#223f79, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(10.5px);
+    backdrop-filter: blur(10px);
     transition: all .5s;
 }

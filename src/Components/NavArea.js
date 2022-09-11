@@ -9,9 +9,9 @@ import { TiAdjustBrightness } from 'react-icons/ti'
 
 function NavArea() {
   return (
-  <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='shadow' fixed='top'>
+  <Navbar collapseOnSelect expand="lg" bg="" variant="light" className='shadow glass' fixed='top'>
   <Container fluid>
-    <Navbar.Brand href="#home"><img src={chroma_logo} width='30' className='m-1'/>Chroma NFT</Navbar.Brand>
+    <Navbar.Brand href="#home" className='text-dark'><img src={chroma_logo} width='30' className='m-1'/>Chroma NFT</Navbar.Brand>
     
     <div className='d-flex'>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border-0 shadow-lg'><BiMenuAltRight/></Navbar.Toggle>
@@ -19,10 +19,10 @@ function NavArea() {
 
     <Navbar.Collapse id="responsive-navbar-nav" className=''>
       <Nav className="me-auto">
-        <Nav.Link>Hey</Nav.Link>
+        <Nav.Link className='text-dark'>Hey</Nav.Link>
       </Nav>
-      <button className='p-2 border-0 bg-light' style={{fontSize: '20px', float: 'right'}}><TiAdjustBrightness className='d-flex'/></button>
-      <button className='border-0 btn-normal rounded-2 p-2'><BiWallet className='mb-1' style={{fontSize: '20px'}}/>Connect Wallet</button>
+      <button className='p-2 border-0 btn-normal glass rounded-5' style={{fontSize: '20px', float: 'right'}}><TiAdjustBrightness className='d-flex'/></button>
+      <button className='border-0 btn-normal rounded-2 p-2 m-1'><BiWallet className='mb-1' style={{fontSize: '20px'}}/>Connect Wallet</button>
     </Navbar.Collapse>
     
   </Container>
