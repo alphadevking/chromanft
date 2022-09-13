@@ -15,7 +15,7 @@ function Footer() {
             <Stack gap={0} style={{textAlign: `left`, fontSize: `14px`}} className='pb-3'>
 
                 <div className=''>
-                    <p className='m-3'><RiCopyrightFill className='mb-1' style={{fontSize: `25px`}}></RiCopyrightFill>2022 NFT Apocalypse - MultiChain Metaverse NFT Platform</p>
+                    <p className='m-3'><RiCopyrightFill className='mb-1' style={{fontSize: `25px`}}></RiCopyrightFill>2022 Chroma NFT - MultiChain Metaverse NFT Platform</p>
                 </div>
 
                 <div className='d-flex'>

@@ -6,7 +6,6 @@ import NFTUtility from './NFTUtility'
 import SmartContractAddress from './SmartContractAddress'
 import Tokenomics from './Tokenomics'
 import Airdrop from './Airdrop'
-import { RiListSettingsFill } from 'react-icons/ri'
 import Listing from './Listing'
 import BuySell from './BuySell'
 
@@ -18,9 +17,19 @@ class Content extends Component {
         <Container>
             
             <Stack gap={3}>
-                <Intro />
-                <NFTUtility />
-                <Tokenomics />
+                <div>
+                  <Intro />
+                </div>
+
+                <Stack>
+
+                  <div className='d-sm-flex'>
+                    <NFTUtility />
+                    <Tokenomics />
+                  </div>
+                  
+                </Stack>
+
                 <SmartContractAddress />
                 <Airdrop />
                 <Listing />

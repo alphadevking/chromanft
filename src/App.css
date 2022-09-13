@@ -5,13 +5,13 @@
 }
 
 .bg-normal{
-    background-color: #333b4d;
+    background-color: #495983;
     color: white;
     transition: all .5s;
 }
 
 .btn-normal{
-    background-color: #333b4d;
+    background-color: #495983;
     color: white;
     transition: all .5s;
     border: none;
@@ -19,7 +19,7 @@
 
 .btn-normal-outline{
     background-color: white;
-    border: 1px solid #222836;
+    border: 1px solid #495983;
     color: black;
     transition: all .5s;
 }
@@ -38,9 +38,23 @@
 }
 
 .glass{
-    background: rgba(#333b4d, 0.5);
+    background: rgba(#495983, 0.5);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-backdrop-filter: blur(10.5px);
     backdrop-filter: blur(10px);
     transition: all .5s;
 }
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.2s ease-out, transform 0.6s ease-out;
+    will-change: opacity, visibility;
+  }
+  
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }

@@ -16,8 +16,8 @@ function HeaderCarousel() {
             style={{height:'55vw'}}
           />
           <div className='text-dark card-img-overlay container align-items-center d-flex w-75'>
-            <div style={{float: `left`}}>
-            <h4>Chroma NFT</h4>
+            <div style={{float: `left`, maxWidth:`50vw`, marginLeft: `2vw`, marginTop: `-10vw`}}>
+            <h3>Chroma NFT</h3>
             <p>The marketplace for NFTs and MetaChain Tokens</p>
             </div>
           </div>
