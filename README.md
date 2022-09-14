@@ -2,12 +2,14 @@ Chroma NFT
 
 Dependencies to work with the project locally include
 
-# yarn add react react-dom
+yarn install
 
-# yarn add react-bootstrap bootstrap
+yarn add react react-dom
 
-# yarn add react-icons
+yarn add react-bootstrap bootstrap
 
-# yarn add web3
+yarn add react-icons
+
+yarn add web3
 
 Updates to follow!!
