@@ -8,6 +8,8 @@ Dependencies to work with the project locally include
 
 # yarn add react-icons
 
+# yarn add react-tooltip
+
 # yarn add web3
 
 Updates to follow!!

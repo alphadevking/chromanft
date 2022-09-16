@@ -3,8 +3,6 @@ import Container from 'react-bootstrap/esm/Container'
 import Stack from 'react-bootstrap/esm/Stack'
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import { BiCopy } from 'react-icons/bi';
-import { Button, Alert } from 'react-bootstrap';
 import CopyAlert from './CopyAlert';
 
 function SmartContractAddress() {
@@ -20,16 +18,12 @@ function SmartContractAddress() {
       
         /* Alert the copied text */
         setModalShow(true)
-      }   
+        
+    }   
 
   return (
     <div className='mb-3'>
-
-      <CopyAlert
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
-
+        
         <Container>
 
             <Stack gap={3} style={{textAlign: `left`}}>
@@ -45,7 +39,12 @@ function SmartContractAddress() {
 
                         <Form.Control className='p-3 shadow glass'
                         value={'  Address:   ' + address} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
-                        <button onClick={() => copyAddress()} className='border-0 pt-1 bg-light'><BiCopy className='mb-1' style={{fontSize: `20px`}}/></button>
+                        <button onClick={() => copyAddress()} className='border-0 bg-light'>
+                            <CopyAlert
+                            show={modalShow}
+                            onHide={() => setModalShow(false)}
+                            />
+                        </button>
 
                     </InputGroup>
 

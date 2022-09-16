@@ -34,11 +34,6 @@ function BuySell() {
   return (
     <div>
 
-        <CopyAlert
-            show={modalShow}
-            onHide={() => setModalShow(false)}
-        />
-
         <Container>
 
             <Stack gap={3} style={{textAlign: `left`}}>
@@ -57,7 +52,12 @@ function BuySell() {
 
                                 <Form.Control className='p-3 shadow glass'
                                 value={'' + linkSpookysway} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
-                                <button onClick={() => copyLink()} className='border-0 pt-1 bg-light'><BiCopy className='mb-1' style={{fontSize: `20px`}}/></button>
+                                <button onClick={() => copyLink()} className='border-0 pt-1 bg-light'>
+                                    <CopyAlert
+                                        show={modalShow}
+                                        onHide={() => setModalShow(false)}
+                                    />
+                                </button>
 
                             </InputGroup>
                         </div>
@@ -70,7 +70,12 @@ function BuySell() {
 
                                 <Form.Control className='p-3 shadow glass'
                                 value={'  Address:   ' + address} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
-                                <button onClick={() => copyAddress()} className='border-0 pt-1 bg-light'><BiCopy className='mb-1' style={{fontSize: `20px`}}/></button>
+                                <button onClick={() => copyAddress()} className='border-0 bg-light'>
+                                    <CopyAlert
+                                    show={modalShow}
+                                    onHide={() => setModalShow(false)}
+                                    />
+                                </button>
 
                             </InputGroup>
                         </div>

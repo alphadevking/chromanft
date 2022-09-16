@@ -6,6 +6,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BiMenuAltRight, BiWallet } from "react-icons/bi";
 import chroma_logo from '../images/chroma.png'
 import { TiAdjustBrightness } from 'react-icons/ti'
+import { useWeb3React } from '@web3-react/core'
+import ConnectButton from './WalletConnection'
 
 function NavArea() {
   return (
@@ -22,7 +24,7 @@ function NavArea() {
         <Nav.Link className='text-dark'></Nav.Link>
       </Nav>
       <button className='p-2 border-0 btn-normal glass rounded-5' style={{fontSize: '20px', float: 'right'}}><TiAdjustBrightness className='d-flex'/></button>
-      <button className='border-0 btn-normal rounded-2 p-2 m-1'><BiWallet className='mb-1' style={{fontSize: '20px'}}/>Connect Wallet</button>
+      <button onClick={() => ConnectButton()} className='border-0 btn-normal rounded-2 p-2 m-1'><BiWallet className='mb-1' style={{fontSize: '20px'}}/>Connect Wallet</button>
     </Navbar.Collapse>
     
   </Container>
