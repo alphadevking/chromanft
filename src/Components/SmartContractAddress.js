@@ -39,12 +39,12 @@ function SmartContractAddress() {
 
                         <Form.Control className='p-3 shadow glass'
                         value={'  Address:   ' + address} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
-                        <button onClick={() => copyAddress()} className='border-0 bg-light'>
+                        <a onClick={() => copyAddress()} className='border-0 bg-light'>
                             <CopyAlert
                             show={modalShow}
                             onHide={() => setModalShow(false)}
                             />
-                        </button>
+                        </a>
 
                     </InputGroup>
 
