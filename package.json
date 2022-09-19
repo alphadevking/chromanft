@@ -52,6 +52,7 @@
   "author": "alpha_devking <danielose266@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "web3": "^1.8.0"
   }
 }
