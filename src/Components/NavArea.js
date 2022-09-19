@@ -22,7 +22,7 @@ function NavArea() {
       <Nav className="me-auto">
         <Nav.Link className='text-dark'></Nav.Link>
       </Nav>
-      <button className='p-2 border-0 btn-normal glass rounded-5' style={{fontSize: '20px', float: 'right'}}><TiAdjustBrightness className='d-flex'/></button>
+      <button className='p-2 border-0 glass rounded-5' style={{fontSize: '20px', float: 'right'}}><TiAdjustBrightness className='d-flex'/></button>
       <button onClick={() => ConnectButton()} className='border-0 btn-normal rounded-2 p-2 m-1'><BiWallet className='mb-1' style={{fontSize: '20px'}}/><span id='walletStatus'>Connect Wallet</span></button>
     </Navbar.Collapse>
     
