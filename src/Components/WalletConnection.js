@@ -1,5 +1,3 @@
-import React from 'react'
-import NavArea from './NavArea'
 import Web3 from 'web3'
 
 const ConnectButton = async () => {
@@ -36,10 +34,6 @@ const ConnectButton = async () => {
     return false;
   };
   
-  const walletStatus = document.getElementById('walletStatus')
-  walletStatus = () => {
-  }
-
   const main = async () => {
     // Example (here we can put any query, transaction, etc)
     web3.eth.getBlockNumber()

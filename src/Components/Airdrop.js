@@ -16,7 +16,7 @@ function Airdrop() {
                 </div>
 
                 <div>
-                    <img src={AirdropMeme} className='w-100'></img>
+                    <img src={AirdropMeme} className='w-100' alt='airdrop'></img>
                 </div>
 
                 <div>

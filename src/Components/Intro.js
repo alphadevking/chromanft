@@ -16,7 +16,7 @@ function Intro() {
                 </div>
 
                 <div>
-                    <img src={IntroMeme} className='w-100'></img>
+                    <img src={IntroMeme} className='w-100' alt='intromeme'></img>
                 </div>
 
                 <div>

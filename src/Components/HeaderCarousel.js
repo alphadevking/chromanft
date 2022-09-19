@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import FirstSlide from '../images/man-wearing-smart-glasses-touching-virtual-screen.jpg'
 import SecondSlide from '../images/vr-future-egamers.jpg'
-import ThirdSlide from '../images/istockphoto-1296431271-170667a.jpg'
+// import ThirdSlide from '../images/istockphoto-1296431271-170667a.jpg'
 
 function HeaderCarousel() {
   return (

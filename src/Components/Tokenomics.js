@@ -12,7 +12,7 @@ function Tokenomics() {
             <Stack gap={2} style={{textAlign: `left`}}>
 
                 <div>
-                    <img src={EthToken} className='w-100 rounded-5'/>
+                    <img src={EthToken} className='w-100 rounded-5' alt='ethtoken'/>
                 </div>
 
                 <div className='p-3'>

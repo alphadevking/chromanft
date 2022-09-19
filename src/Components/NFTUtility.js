@@ -11,7 +11,7 @@ function cNFTUtility() {
             <Stack gap={2}>
 
                 <div>
-                    <img src={WebMeme} className='w-100 rounded-5'></img>
+                    <img src={WebMeme} className='w-100 rounded-5' alt='webmeme'></img>
                 </div>
 
                 <div className='p-3'>

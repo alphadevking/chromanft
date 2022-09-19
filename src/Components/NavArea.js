@@ -2,7 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BiMenuAltRight, BiWallet } from "react-icons/bi";
 import chroma_logo from '../images/chroma.png'
 import { TiAdjustBrightness } from 'react-icons/ti'
@@ -13,7 +12,7 @@ function NavArea() {
   return (
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='shadow' fixed='top'>
   <Container fluid>
-    <Navbar.Brand href="#home" className='text-dark'><img src={chroma_logo} width='30' className='m-1'/><b>Chroma NFT</b></Navbar.Brand>
+    <Navbar.Brand href="#home" className='text-dark'><img src={chroma_logo} alt='' width='30' className='m-1'/><b>Chroma NFT</b></Navbar.Brand>
     
     <div className='d-flex'>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border-0 shadow-lg'><BiMenuAltRight/></Navbar.Toggle>

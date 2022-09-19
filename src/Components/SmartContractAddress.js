@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/esm/Container'
 import Stack from 'react-bootstrap/esm/Stack'
 import Form from 'react-bootstrap/Form';
@@ -39,12 +39,12 @@ function SmartContractAddress() {
 
                         <Form.Control className='p-3 shadow glass'
                         value={'  Address:   ' + address} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
-                        <a onClick={() => copyAddress()} className='border-0 bg-light pt-2'>
+                        <button onClick={() => copyAddress()} className='border-0 bg-light pt-2'>
                             <CopyAlert
                             show={modalShow}
                             onHide={() => setModalShow(false)}
                             />
-                        </a>
+                        </button>
 
                     </InputGroup>
 
