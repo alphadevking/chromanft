@@ -1,4 +1,5 @@
 import React from 'react'
+import NavArea from './NavArea'
 import Web3 from 'web3'
 
 const ConnectButton = async () => {
@@ -14,11 +15,11 @@ const ConnectButton = async () => {
   } else {
     // We are on the server *OR* the user is not running metamask
     // List of our web3 providers
-const providers = [
-  new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545')),
-  new Web3(new 
-  Web3.providers.HttpProvider('https://bsc-dataseed1.binance.org')),
-  ];
+  const providers = [
+    new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545')),
+    new Web3(new 
+    Web3.providers.HttpProvider('https://bsc-dataseed1.binance.org')),
+    ];
 
   // Selects the first web3 provider available from our list
   const providerSelector = async () => {
@@ -34,6 +35,10 @@ const providers = [
     };
     return false;
   };
+  
+  const walletStatus = document.getElementById('walletStatus')
+  walletStatus = () => {
+  }
 
   const main = async () => {
     // Example (here we can put any query, transaction, etc)
@@ -47,12 +52,16 @@ const providers = [
           if (res.includes('Invalid JSON RPC response'))
             (await providerSelector()) ? main() : console.log('No providers available');
       });
-  };
+        
+    };
 
-  main();
+    main();
 
   } 
 
 }
+
+// Starts 
+// window.onload = async() => {ConnectButton()}
 
 export default ConnectButton

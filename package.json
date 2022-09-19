@@ -50,5 +50,8 @@
   },
   "main": "index.js",
   "author": "alpha_devking <danielose266@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "web3": "^1.8.0"
+  }
 }
