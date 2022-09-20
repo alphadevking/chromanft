@@ -15,7 +15,7 @@ function Listing() {
                 </div>
 
                 <div>
-                    <p>Chroma NFT (cNFT) Token is listed on <a className='text-decoration-underline text-dark' href='https://spookysway.finance/'>https://spookysway.finance</a>.
+                    <p>Chroma NFT (cNFT) Token is listed on <a className='text-decoration-underline text-dark' href='https://pancakeswap.finance/'>https://pancakeswap.finance</a>.
                     </p>
                 </div>
 
