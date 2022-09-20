@@ -10,7 +10,8 @@ function BuySell() {
     const [modalShow, setModalShow] = React.useState(false);
 
     const address = '0xda5dea132f9c30f2f6b513266795fec16426c0c6'
-    const linkSpookysway = 'https://spookysway.finance'
+
+    const linkPancakeswap = 'https://pancakeswap.finance'
 
     const copyAddress = () => {
         
@@ -19,16 +20,16 @@ function BuySell() {
       
         /* Alert the copied text */
         setModalShow(true)
-      }
-      
-      const copyLink = () => {
-        
+    }
+    
+    const copyLink = () => {
+    
         /* Copy the text inside the text field */
-        navigator.clipboard.writeText(linkSpookysway);
-      
-        // /* Alert the copied text */
-        // alert("Copied!    " + linkSpookysway);
-      }      
+        navigator.clipboard.writeText(linkPancakeswap);
+        
+        /* Alert the copied text */
+        setModalShow(true)
+    }      
 
   return (
     <div>
@@ -50,7 +51,7 @@ function BuySell() {
                             <InputGroup className="mb-3 mt-3">
 
                                 <Form.Control className='p-3 shadow glass'
-                                value={'' + linkSpookysway} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
+                                value={'' + linkPancakeswap} style={{fontSize: `13px`, border:`1px solid black`, cursor: `inherit`}} readOnly={true}/>
                                 <button onClick={() => copyLink()} className='border-0 pt-2 bg-light'>
                                     <CopyAlert
                                         show={modalShow}
@@ -79,9 +80,9 @@ function BuySell() {
                             </InputGroup>
                         </div>
 
-                        <li className='p-2'>Make sure you are on the Fantom network and have FTM in your wallet</li>
+                        <li className='p-2'>Make sure you are on the Binance SmartChain network and have BNB in your wallet</li>
                         <li className='p-2'>Paste cNFT CA and add Token</li>
-                        <li className='p-2'>Swap your FTM to cNFT</li>
+                        <li className='p-2'>Swap your BNB to cNFT</li>
 
                     </ol>
                 </div>
