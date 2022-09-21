@@ -19,3 +19,7 @@ yarn add react-icons
 yarn add web3
 
 Updates to follow!!
+
+## License
+
+[**MIT**](./LICENSE)
