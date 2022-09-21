@@ -20,6 +20,8 @@ yarn add web3
 
 Updates to follow!!
 
-## License
+## ✌️ License
 
-[** GPL-3.0 **](./LICENSE)
+[**MIT**](./LICENSE)
+
+
